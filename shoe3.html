@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<title>shoe3</title>
+	<style type="text/css">
+	div.top{
+    	    background-image:url('https://images.hdqwalls.com/download/abstract-paint-swirl-3j-1366x768.jpg');
+            background-attachment : scroll;
+	    	background-color:#000;
+            color:#fff;
+            border-color:#080808;
+            min-height: 40px;
+            border: 1px solid transparent;
+            position: sticky;
+            top: 0px;
+            padding-left: 80%;
+            padding-top: 1%;
+            z-index: 1;
+        }
+         .logo{
+        	
+            font-size: 180%;
+            font-weight: bold;
+            position: absolute;
+            top: 0px;
+            right: 80%;  
+        }
+		.left{
+			position: relative;
+			width: 55%;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			margin:5px;
+			padding: 3px;
+
+		}
+		div.size{
+			width: 20%;
+		}
+		img{
+			width: 49.5%;
+			display: inline;
+			padding: 1%;
+			
+		}
+
+		.right{
+			border: 1px solid rgb(255, 255, 255);
+			width:40%;
+			height: 89%;
+			margin: 19px 10px 0px 0px;
+			position: all;
+
+			display: block;
+			position: absolute;
+			right: 0px;
+			top: 40px;
+			/*z-index: 1;*/
+			
+		}
+		form{
+			margin-top: 50px;
+		}
+		.buynow{
+			background-color: rgb(255, 107, 34);
+			font-size: 170%;
+			border-radius: 10px;
+			box-shadow: 12px 12px 2px -3px rgba(0, 0, 255, .2);
+		}
+		
+		
+	</style>
+	
+	<script type="text/javascript">
+		function validate(){
+			var option = document.getElementsByName("options");
+		    var optioncount = 0;
+		    for(i=0;i<option.length;i++)
+		    {
+			if(option[i].checked){
+				optioncount++;	
+			  }
+		    }
+			if(optioncount == 0) {
+			alert("Please Select Your Size");
+			return false;
+		     }
+			return true;
+		}
+		
+	</script>
+</head>
+<body>
+	<div class="top">
+    <div class="logo">JustJam</div>
+    </div>
+	<div class="left">
+		
+		<img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13486188/2021/4/8/4960308d-386b-4fa5-86cd-7620e0f875e91617863232414-Puma-Unisex-Casual-Shoes-7441617863231552-1.jpg">
+		<img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13486188/2021/4/8/63ed259b-b7b0-47d6-ada9-5aff64361a9d1617863232393-Puma-Unisex-Casual-Shoes-7441617863231552-2.jpg">
+		<img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13486188/2021/4/8/6f8f2185-e9c5-4764-8c74-6c1f9d0e24b21617863232376-Puma-Unisex-Casual-Shoes-7441617863231552-3.jpg">
+		<img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13486188/2021/4/8/101788f6-9660-48b3-9cc6-ba077ab8f15a1617863232358-Puma-Unisex-Casual-Shoes-7441617863231552-4.jpg">
+		<img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13486188/2021/4/8/b1ea3e5f-8eb9-489b-8346-31c9f49d72bc1617863232341-Puma-Unisex-Casual-Shoes-7441617863231552-5.jpg">
+	    
+	</div>
+	<div class="right">
+		<h1 style="text-align: center;">Puma</h1><br>
+		<i style="font-size: 18.6px; color: dimgrey;">Unisex Colourblocked RS-Fast Sneakers</i><br><br>
+		<ins style="color: coral;"> __________________________________________________________________</ins>
+		<br><br>
+		<div style="font-size: 30px;">Rs.9999&nbsp&nbsp<mark style="color: orange; background-color: floralwhite; font-size: 20px;">Hurry, Only 1 Left!!</mark></div>
+		
+		<form name="sizeselect" method="get" onsubmit="return validate()" action="billing.html">
+			<h3>Select Size<small>(UK Size)</small></h3>
+
+		<input type="radio" class="btn-check" name="options" id="option0" autocomplete="off">
+        <label class="btn btn-secondary" for="option0">6</label>&nbsp&nbsp&nbsp
+
+		<input type="radio" class="btn-check" name="options"  id="option1" autocomplete="off">
+        <label class="btn btn-secondary" for="option1">7</label>&nbsp&nbsp&nbsp
+
+        <input type="radio" class="btn-check" name="options"  id="option2" autocomplete="off">
+        <label class="btn btn-secondary" for="option2">8</label> &nbsp&nbsp&nbsp
+
+        <input type="radio" class="btn-check" name="options"  id="option3" autocomplete="off">
+        <label class="btn btn-secondary" for="option3">9</label>&nbsp&nbsp&nbsp
+
+        <input type="radio" class="btn-check" name="options"  id="option4" autocomplete="off"disabled>
+        <label class="btn btn-secondary" for="option4"><del>10</del></label>&nbsp&nbsp&nbsp
+
+        <input type="radio" class="btn-check" name="options"  id="option5" autocomplete="off">
+        <label class="btn btn-secondary" for="option5">11</label>&nbsp&nbsp&nbsp
+
+        <input type="radio" class="btn-check" name="options" id="option6" autocomplete="off">
+        <label class="btn btn-secondary" for="option6">12</label><br><br>
+         
+        
+
+        <input type="Submit" value="Buy Now" class="buynow">
+       
+       
+       </form>
+       <br><br>
+       <div><p>
+       	100% Original Products<br>
+Pay on delivery might be available<br>
+Easy 30 days returns and exchanges<br>
+Try & Buy might be available</p>
+
+       	<p style="font-size: 20px; font-weight: bold; margin-top: 50px;">PRODUCT DETAILS</p>
+
+
+<p style="font-size: 20px; font-weight: bold; margin-top: 50px;">Design Details:</p>
+A pair of round toe black sneakers ,has regular styling,<br>
+Lace-ups detail<br>
+Mesh upper<br>
+Cushioned footbed<br>
+Textured and patterned outsole<br>
+Warranty: 3 months<br>
+Warranty provided by the brand owner / manufacturer
+
+<p style="font-size: 20px; font-weight: bold; margin-top: 50px;">About The Shoe: </p>
+Mesh<br>
+Faster and fresher than any of our RS kicks yet. The RS-Fast is reinventing street style with a progressive design that combines early 2000s cues and futuristic vibes. This version boasts a trend-forward colour palette. PUMA's retro running technology that offers cushioning from the forefoot through the heel.
+
+
+<p style="font-size: 20px; font-weight: bold; margin-top: 50px;">Material & Care</p>
+Mesh<br>
+Wipe with a clean, dry cloth to remove the dust
+
+<p style="font-size: 20px; font-weight: bold; margin-top: 50px;">Specifications</p>
+<small style="font-family: cursive;">Type</small>
+=Sneakers<br>
+<small style="font-family: cursive;">Toe Shape</small>
+=Round Toe<br>
+<small style="font-family: cursive;">Pattern</small>
+=Colourblocked<br>
+<small style="font-family: cursive;">Fastening</small>
+=Lace-Ups<br>
+<small style="font-family: cursive;">Shoe Width</small>
+=Regular<br>
+<small style="font-family: cursive;">Ankle Height</small>
+=Regular<br>
+<small style="font-family: cursive;">Insole</small>
+=Comfort Insole<br>
+<small style="font-family: cursive;">Insole Material</small>
+=Rubber</div>
+
+	</div>
+	
+</body>
+</html>

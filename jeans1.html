@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<title>jeans1</title>
+	<style type="text/css">
+	div.top{
+    	    background-image:url('https://images.hdqwalls.com/download/abstract-paint-swirl-3j-1366x768.jpg');
+            background-attachment : scroll;
+	    	background-color:#000;
+            color:#fff;
+            border-color:#080808;
+            min-height: 40px;
+            border: 1px solid transparent;
+            position: sticky;
+            top: 0px;
+            padding-left: 80%;
+            padding-top: 1%;
+            z-index: 1;
+        }
+         .logo{
+        	
+            font-size: 180%;
+            font-weight: bold;
+            position: absolute;
+            top: 0px;
+            right: 80%;  
+        }
+		.left{
+			position: relative;
+			width: 55%;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			margin:5px;
+			padding: 3px;
+
+		}
+		div.size{
+			width: 20%;
+		}
+		img{
+			width: 49%;
+			display: inline;
+			padding: 1%;
+		}
+
+		.right{
+			border: 1px solid rgb(255, 255, 255);
+			width:40%;
+			height: 89%;
+			margin: 19px 10px 0px 0px;
+			position: all;
+
+			display: block;
+			position: absolute;
+			right: 0px;
+			top: 40px;
+			/*z-index: 1;*/
+			
+		}
+		form{
+			margin-top: 50px;
+		}
+		.buynow{
+			background-color: rgb(255, 107, 34);
+			font-size: 170%;
+			border-radius: 10px;
+			box-shadow: 12px 12px 2px -3px rgba(0, 0, 255, .2);
+		}
+		
+		
+	</style>
+	<script type="text/javascript">
+		function validate(){
+			var option = document.getElementsByName("options");
+		    var optioncount = 0;
+		    for(i=0;i<option.length;i++)
+		    {
+			if(option[i].checked){
+				optioncount++;	
+			  }
+		    }
+			if(optioncount == 0) {
+			alert("Please Select Your Size");
+			return false;
+		     }
+			return true;
+		}
+	</script>
+</head>
+<body>
+	<div class="top">
+    <div class="logo">JustJam</div>
+    </div>
+	<div class="left">
+		
+		<img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5670018/2018/9/17/5d578199-2c1a-4001-8af6-570311ff43eb1537164174593-Roadster-Men-Blue-Skinny-Fit-Mid-Rise-Mildly-Distressed-Stre-1.jpg">
+		<img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5670018/2018/9/17/f41f7b3d-af80-4c73-9f0b-e5ea6bbfd4df1537164174578-Roadster-Men-Blue-Skinny-Fit-Mid-Rise-Mildly-Distressed-Stre-2.jpg">
+		<img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5670018/2018/9/17/1e2fbeeb-9d5d-474a-bd63-8efeeeb3837d1537164174564-Roadster-Men-Blue-Skinny-Fit-Mid-Rise-Mildly-Distressed-Stre-3.jpg">
+		<img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5670018/2018/9/17/8267c357-d316-481d-976f-3dfa06f1c37d1537164174534-Roadster-Men-Blue-Skinny-Fit-Mid-Rise-Mildly-Distressed-Stre-5.jpg">
+	    
+	</div>
+	<div class="right">
+		<h1 style="text-align: center;">Roadster</h1><br>
+		<i style="font-size: 18.6px; color: dimgrey;">Men Blue Skinny Fit Mid-Rise Mildly Distressed Stretchable Jeans</i><br><br>
+		<ins style="color: coral;"> _______________________________________________________________</ins>
+		<br><br>
+		<div style="font-size: 30px;">Rs.1019&nbsp&nbsp<del style="color: grey;">Rs. 1699&nbsp&nbsp</del><mark style="color: red; background-color: grey; font-size: 20px;">(40% off)</mark></div>
+		
+		<form name="sizeselect" method="get" onsubmit="return validate()" action="billing.html">
+			<h3>Select Size</h3>
+		<input type="radio" class="btn-check" name="options"  id="option1" autocomplete="off">
+        <label class="btn btn-secondary" for="option1">28</label>&nbsp&nbsp&nbsp
+
+        <input type="radio" class="btn-check" name="options"  id="option2" autocomplete="off">
+        <label class="btn btn-secondary" for="option2">30</label> &nbsp&nbsp&nbsp
+
+        <input type="radio" class="btn-check" name="options"  id="option3" autocomplete="off">
+        <label class="btn btn-secondary" for="option3">32</label>&nbsp&nbsp&nbsp
+
+        <input type="radio" class="btn-check" name="options"  id="option4" autocomplete="off">
+        <label class="btn btn-secondary" for="option4">34</label>&nbsp&nbsp&nbsp
+
+        <input type="radio" class="btn-check" name="options"  id="option5" autocomplete="off">
+        <label class="btn btn-secondary" for="option5">36</label><br><br>
+         
+        
+
+        <input type="Submit" value="Buy Now" class="buynow">
+       
+       </form>
+       <br><br>
+       <div><p>
+       	100% Original Products<br>
+Pay on delivery might be available<br>
+Easy 30 days returns and exchanges<br>
+Try & Buy might be available</p>
+
+       	<p style="font-size: 20px; font-weight: bold; margin-top: 50px;">PRODUCT DETAILS</p>
+Blue medium wash 5-pocket mid-rise jeans, mildly distressed with light fade, has a button and zip closure, waistband with belt loops
+
+<p style="font-size: 20px; font-weight: bold; margin-top: 50px;">Size & Fit</p>
+Skinny Fit
+Stretchable
+The model (height 6') is wearing a size 32
+
+<p style="font-size: 20px; font-weight: bold; margin-top: 50px;">Material & Care</p>
+98% cotton, 2% elastane
+Machine-wash
+
+<p style="font-size: 20px; font-weight: bold; margin-top: 50px;">Specifications</p>
+<small style="font-family: cursive;">Distress</small>
+=Mildly Distressed<br>
+<small style="font-family: cursive;">Type of Distress</small>
+=Ripped<br>
+<small style="font-family: cursive;">Waist Rise</small>
+=Mid-Rise<br>
+<small style="font-family: cursive;">Fade</small>
+=Light Fade<br>
+<small style="font-family: cursive;">Shade</small>
+=Medium<br>
+<small style="font-family: cursive;">Fit</small>
+=Skinny Fit
+<small style="font-family: cursive;">Length</small>
+=Regular<br>
+<small style="font-family: cursive;">Waistband</small>
+=With belt loops</div>
+
+	</div>
+	
+</body>
+</html>
