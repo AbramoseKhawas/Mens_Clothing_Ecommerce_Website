@@ -2,7 +2,6 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<!-- <div style="background-image: url(https://cdn.wallpapersafari.com/28/8/ObwGdf.jpg);"> -->
 	<title>Billing</title>
 
 
@@ -36,7 +35,7 @@
 	div.outer{
 		border: 1px solid black;
 		border-radius: 10px;
-		background-color: rgb(111, 3, 255);
+		background-color: #eeeeee;
 		padding: 4px;
 		height: 550px;
 		width: 80%;
@@ -48,7 +47,7 @@
 		border-bottom: 1px solid black;
 		height: 50px;
 		text-align: center;
-		box-shadow: 2px 20px 100px green;
+		box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
 }
 	div.inner2{
 		border: 2px solid #f1f1f1;
@@ -80,8 +79,10 @@
 		margin-bottom: -100px;
 	}
 	h1#bill{
-		color: white;
+		color: lightcoral;
 		font-family: cursive;
+
+
 	}
 	input#submit{
 		background-image: linear-gradient(red 10%, orange 70%, yellow 100%);
@@ -91,13 +92,18 @@
 	}
 	.bottom{
 
-			background-color: #000;
+			background-color: #4bb544;
             color:#fff;
             font-size:14px;
             position: fixed;
  bottom: 0px;
             width: 100%;
             text-align: center;
+		}
+		body{
+			background-image: url("https://wallpaperaccess.com/full/4597116.jpg");
+			background-repeat: no-repeat;
+
 		}
 </style>
 	
@@ -162,12 +168,12 @@
               <option value="DELHI">DELHI</option>
               </select>
             <div style="font-size: 25px;">City</div> 
-            <input type="text" name="city" id="city"required> <br>
+            <input type="text" name="city" id="city" required> <br>
             <div class="inner3">
             	<div style="font-size: 25px;">House No., Building Name(Required)</div>
-            	<textarea type="address" name="houseno" id="houseno"required ></textarea>
+            	<textarea type="address" name="houseno" id="houseno" required ></textarea>
             	<div style="font-size: 25px;">Road name,Area,Colony(Required)</div>
-            	<textarea type="address" name="area" id="area"required ></textarea>
+            	<textarea type="address" name="area" id="area" required ></textarea>
 
             </div>
             <br>
